@@ -48,7 +48,7 @@ enum ConstantsHomeView {
     static let sensorProgressViewTrackingColor: UIColor = UIColor(white: 0.15, alpha: 1.0)
     
     /// warning time left / colour
-    static let sensorProgressViewWarningInMinutes: Double = 60 * 24.0 // 24 hours before the sensor reaches max age
+    static let sensorProgressViewWarningInMinutes: Double = 60 * 36.0 // 36 hours before the sensor reaches max age
     static let sensorProgressViewProgressColorWarning: UIColor = .yellow
     static let sensorProgressViewProgressColorWarningSwiftUI: Color = .yellow
     
