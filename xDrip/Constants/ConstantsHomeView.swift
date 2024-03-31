@@ -372,7 +372,7 @@ enum ConstantsHomeView {
     static let hideUrlDuringTimeInSeconds: Int = 10
     
     /// warning time left / colour
-    static let sensorProgressViewWarningInMinutes: Double = 60 * 24.0 // 24 hours before the sensor reaches max age
+    static let sensorProgressViewWarningInMinutes: Double = 60 * 36.0 // 36 hours before the sensor reaches max age
     static let sensorProgressViewProgressColorWarningSwiftUI: Color = .yellow
     
     /// urgent time left / colour
