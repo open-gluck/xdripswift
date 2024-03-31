@@ -127,12 +127,12 @@ extension Swift.Double: Swift.RawRepresentable {
         } else if days == 0 && hours < 12 {
             
             // show just hours and minutes for less than twelve hours
-            daysAndHoursString = abs(hours).description + "h" + abs(minutes).description + "m"
+            daysAndHoursString = abs(hours).description + "h " + abs(minutes).description + "m"
             
         } else {
             
             // default show days and hours
-            daysAndHoursString = Int(days).description + "d" + Int(hours).description + "h"
+            daysAndHoursString = Int(days).description + "d " + Int(hours).description + "h"
             
         }
         
